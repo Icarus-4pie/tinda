@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/datedialog_bg"
+    android:padding="16dp">
+
+    <!-- Month, Date, Year Selection -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:paddingBottom="8dp">
+
+        <TextView
+            android:id="@+id/tv_month"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="September"
+            android:textColor="#B0B0B0"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_date"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="10"
+            android:textColor="#B0B0B0"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_year"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="2023"
+            android:textColor="#B0B0B0"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <!-- Selected Row -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="@drawable/highlighted_bg"
+        android:padding="8dp"
+        android:layout_marginBottom="8dp">
+
+        <TextView
+            android:id="@+id/tv_selected_month"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="October"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv_selected_date"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="11"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv_selected_year"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="2024"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <!-- Cancel and Confirm Buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="CANCEL"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:backgroundTint="#E0E0E0"
+            android:textColor="#000000" />
+
+        <View
+            android:layout_width="8dp"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:id="@+id/dateDialogButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:text="SET TARGET DATE"
+            android:textAllCaps="false"
+            android:backgroundTint="#D0D0D0"
+            android:textColor="#000000" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/white"
+    tools:context=".addSavings">
+
+        <!-- Back Button -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:paddingBottom="8dp">
+
+                <ImageButton
+                    android:id="@+id/backButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:contentDescription="@string/back_button"
+                    android:src="@drawable/baseline_arrow_back_24"
+                    tools:ignore="TouchTargetSizeCheck" />
+
+                <TextView
+                    android:id="@+id/screenTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/add_savings"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_marginStart="16dp" />
+        </LinearLayout>
+
+        <!-- Top ImageView for Banner or Illustration -->
+        <ImageView
+            android:id="@+id/topImageView"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:contentDescription="@string/top_image"
+            android:scaleType="centerCrop"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Text Field for Cebu Tour -->
+        <TextView
+            android:id="@+id/cebuTourLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Title"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:layout_marginBottom="4dp"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/cebuTourText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="14dp"
+            android:padding="15dp"
+            android:background="@drawable/custom_edit_text"
+            android:hint="Enter title name"
+            android:inputType="text"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <!-- Text Field for Target Amount -->
+        <TextView
+            android:id="@+id/targetAmountLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/target_amount"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:layout_marginBottom="4dp"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/targetAmountText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:hint="@string/enter_target_amount"
+            android:padding="15dp"
+            android:background="@drawable/custom_edit_text"
+            android:inputType="numberDecimal"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <!-- Text Field for Target Date -->
+        <TextView
+            android:id="@+id/targetDateLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/target_date"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:layout_marginBottom="4dp"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/targetDateText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:hint="@string/enter_target_date"
+            android:padding="15dp"
+            android:background="@drawable/custom_edit_text"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            tools:ignore="TouchTargetSizeCheck" />
+
+
+        <!-- Text Field for Add Funds -->
+        <TextView
+            android:id="@+id/addFundsLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add_funds"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:layout_marginBottom="4dp"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/addFundsText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:hint="@string/enter_funds"
+            android:inputType="numberDecimal"
+            android:padding="15dp"
+            android:background="@drawable/custom_edit_text"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <!-- Button for Save -->
+        <Button
+            android:id="@+id/saveButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SAVE"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:backgroundTint="#FF334C"
+            android:textStyle="bold"/>
+
+</LinearLayout>

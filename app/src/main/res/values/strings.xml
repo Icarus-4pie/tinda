@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">tinda</string>
+
+
+
+    <string name="back_button">Back</string>
+    <string name="add_savings">Add Savings</string>
+    <string name="cebu_tour">Cebu Tour</string>
+    <string name="enter_tour_name">Enter tour name</string>
+    <string name="target_amount">Target Amount</string>
+    <string name="enter_target_amount">Enter target amount</string>
+    <string name="target_date">Target Date</string>
+    <string name="enter_target_date">Enter target date</string>
+    <string name="add_funds">Add Funds</string>
+    <string name="enter_funds">Enter funds</string>
+    <string name="save">Save</string>
+    <string name="top_image">Top Image</string>
+
+</resources>

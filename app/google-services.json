@@ -1,0 +1,53 @@
+{
+  "project_info": {
+    "project_number": "867098079107",
+    "project_id": "tinda-fb5b4",
+    "storage_bucket": "tinda-fb5b4.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:867098079107:android:3edfc33f0d772c962e50b6",
+        "android_client_info": {
+          "package_name": "com.example.tinda"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBeIaY7d9Csfc-YVjoqAIcZJRnrJ4YJaTU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:867098079107:android:52f201ef5149f0bc2e50b6",
+        "android_client_info": {
+          "package_name": "com.tinda.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBeIaY7d9Csfc-YVjoqAIcZJRnrJ4YJaTU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1",
+
+  "rules": {
+    ".read": "true",
+    ".write": "true"
+  }
+}
